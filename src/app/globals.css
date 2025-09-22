@@ -20,7 +20,49 @@
 }
 
 body {
+  @apply min-h-screen font-sans;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ====== Layout Global ====== */
+
+header {
+  @apply bg-white dark:bg-neutral-900 shadow-md sticky top-0 z-50;
+}
+
+nav {
+  @apply max-w-5xl mx-auto flex justify-between items-center p-4;
+}
+
+h1 {
+  @apply text-2xl font-bold text-blue-600;
+}
+
+nav div a {
+  @apply hover:text-blue-500 transition-colors;
+}
+
+section {
+  @apply flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-blue-50 to-white dark:from-neutral-900 dark:to-neutral-950;
+}
+
+section h2 {
+  @apply text-4xl font-bold mb-4;
+}
+
+section p {
+  @apply text-lg max-w-2xl mb-6;
+}
+
+section a {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-2xl shadow hover:bg-blue-700 transition;
+}
+
+footer {
+  @apply bg-gray-100 dark:bg-neutral-800 py-6 text-center mt-10;
+}
+
+footer p {
+  @apply text-sm text-gray-500 dark:text-gray-400;
 }
