@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-b from-blue-50 to-white">
-        <h2 className="text-4xl font-bold mb-4">Bem-vindo à Aphronesia</h2>
+        <h2 className="text-4xl font-bold mb-4">Bem-vindo à Aphronesia Studio</h2>
         <p className="text-lg max-w-2xl mb-6">
           Somos uma equipe apaixonada por criar experiências de jogos únicas e inovadoras. 🚀
         </p>
