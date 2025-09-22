@@ -1,23 +1,17 @@
 import Link from "next/link";
+import Header from '@/app/header'
+import Footer from '@/app/footer'
 
 export default function Home() {
     return (
         <main>
-            {/* Header */}
-            <header>
-                <nav>
-                    <h1>Aphronesia</h1>
-                    <div>
-                        <Link href="/">Home</Link>
-                        <Link href="/projetos">Projetos</Link>
-                        <Link href="/sobre">Sobre</Link>
-                        <Link href="/contato">Contato</Link>
-                    </div>
-                </nav>
-            </header>
+            <Header/>
+
             <section>
                 <h1>Projetos</h1>
             </section>
+            
+            <Footer />
         </main>
     )
 }
