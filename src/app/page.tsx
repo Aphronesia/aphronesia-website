@@ -15,7 +15,7 @@ export default function Home() {
         <p className="text-lg max-w-2xl mb-6">
           Somos uma equipe apaixonada por criar experiências de jogos únicas e inovadoras. 🚀
         </p>
-        <Link href="/projetos" className="bg-blue-600 text-white px-6 py-3 rounded-2xl shadow hover:bg-blue-700 transition">
+        <Link href="/projetos" className="bg-orange-600 text-white px-6 py-3 rounded-2xl shadow hover:bg-purple-700 transition">
           Ver Projetos
         </Link>
       </section>
