@@ -33,6 +33,7 @@ export default function Home() {
                     <div className="basis-full"></div>
 
                     <div className="flex justify-end mt-8">
+                        
                         <div>
                             <Image
                                 src={ricoposter}
@@ -49,9 +50,6 @@ export default function Home() {
                 </div>
 
             </section>
-
-
-
 
             <Footer />
         </main>
