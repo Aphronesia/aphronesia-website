@@ -34,9 +34,11 @@ export default function Home() {
 
 
                     <div className="w-full mt-8 flex justify-end">
+                        
                          <div className=" box-content size-128 border-1 p-0">
                                 <p className="text-2xl text-left font-serif"> Jogo de aventura 2D feito no motor gráfico Unity. Em um futuro em ruínas, junte-se ao Rico, uma capivara detetive que pode viajar no tempo, para descobrir o que aconteceu no mundo e como impedir a sua eventual destruição. Enfrentando os figurões egoístas que querem te impedir e passando por todo tipo de aventura para restaurar o mundo antes que ele colapse de novo. </p>
                              </div>
+                             
                        
                          <div className="flex justify-center w-full">
                               <Image
