@@ -16,7 +16,6 @@ export default function Home() {
                 <h2 className="text-4xl font-bold h-15">Projetos</h2>
                 <h3 className="text-3xl font-bold h-15">Fading</h3>
 
-
                 <div className="flex flex-wrap">
                     <div className="">
                         <Image
@@ -30,34 +29,32 @@ export default function Home() {
                         <p className="text-2xl text-left font-serif"> Fading é um jogo de aventura 2D feito no motor gráfico Unity. Em um futuro quase pós-apocaliptico, o jogo coloca o jogador na pele de engenheiro responsável pela criação de uma maquina que fornecia energia para o mundo inteiro, mas que em dado momento essa deu pane e começou a destruir tudo, acabando com os recursos da terra. Você então é mandado ir até a máquina corrigir o problema, mas terá que enfrentar diversos seres criados pela máquina após a pane que irão atrapalhar o seu caminho</p>
                     </div>
 
-                    <div className="basis-full"></div>
+
+                </div>
 
 
-                    <div className="w-full mt-8 flex justify-end">
-                        
-                         <div className=" box-content size-128 border-1 p-0">
-                                <p className="text-2xl text-left font-serif"> Jogo de aventura 2D feito no motor gráfico Unity. Em um futuro em ruínas, junte-se ao Rico, uma capivara detetive que pode viajar no tempo, para descobrir o que aconteceu no mundo e como impedir a sua eventual destruição. Enfrentando os figurões egoístas que querem te impedir e passando por todo tipo de aventura para restaurar o mundo antes que ele colapse de novo. </p>
-                             </div>
-                             
-                       
-                         <div className="flex justify-center w-full">
-                              <Image
-                                    src={ricoposter}
-                                    alt=""
-                                    width={400}
-                                    height={224}
-                                     className="ml-auto"
-                                    />
-                               </div>
+                <div className="flex flex-wrap">
 
-                            
+                    <div className=" box-content size-128 border-1 p-0">
+                        <p className="text-2xl text-left font-serif"> Jogo de aventura 2D feito no motor gráfico Unity. Em um futuro em ruínas, junte-se ao Rico, uma capivara detetive que pode viajar no tempo, para descobrir o que aconteceu no mundo e como impedir a sua eventual destruição. Enfrentando os figurões egoístas que querem te impedir e passando por todo tipo de aventura para restaurar o mundo antes que ele colapse de novo. </p>
                     </div>
 
+
+                    <div className="">
+                        <Image
+                            src={ricoposter}
+                            alt=""
+                            width={400}
+                            height={224}
+                            className="ml-auto"
+                        />
+                    </div>
                 </div>
 
             </section>
 
             <Footer />
+            
         </main>
     )
 }
